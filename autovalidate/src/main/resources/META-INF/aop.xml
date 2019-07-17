@@ -1,0 +1,9 @@
+<aspectj>
+    <weaver options="-verbose -showWeaveInfo">
+        <include within="*" />
+    </weaver>
+
+    <aspects>
+        <aspect name="com.acnebs.autovalidate.AutoValidateAspect" />
+    </aspects>
+</aspectj>
